@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "color_tools_battisti456"
+version = "0.0.0"
+requires-python = ">= 3.12"
+authors = [
+    {name = "Autumn Battisti", email = "battisti456@gmail.com"}
+]
+description = "A module cotaining several color manipulation related tools."
+readme = "README.md"
+keywords = ["color","octree","color name"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13"
+]
+
+[project.urls]
+
+
