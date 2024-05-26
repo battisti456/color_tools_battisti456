@@ -19,6 +19,9 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13"
 ]
+dependencies = [
+    "pyoctree-0.2.10-cp36-cp36m-win_amd64.whl"
+]
 
 [project.urls]
 
