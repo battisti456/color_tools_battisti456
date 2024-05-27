@@ -4,7 +4,7 @@ from typing import overload
 
 from .types import Color, TupleRGB, PillowNamedColor, HexColor, HexColorAlpha, TupleRGBA
 
-with importlib.resources.open_text('color_tools_battisti456','pillow_named_hexcodes.json','r') as file:
+with importlib.resources.open_text('color_tools_battisti456','pillow_named_hexcodes.json') as file:
     PILLOW_NAMED_HEXCODES:dict[PillowNamedColor,HexColor] = json.load(file)
 
 def color_to_tuple_rgb(color:Color) -> TupleRGB|TupleRGBA:
