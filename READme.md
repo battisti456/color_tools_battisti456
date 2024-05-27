@@ -9,6 +9,6 @@ Currently it only contains some color typing and a method for finding the closes
 ## Attributions
 
 Color names sourced from wikipedia:
- -(A - F)[https://en.wikipedia.org/wiki/List_of_colors:_A%E2%80%93F]
- -(G - M)[https://en.wikipedia.org/wiki/List_of_colors:_G%E2%80%93M]
- -(N - Z)[https://en.wikipedia.org/wiki/List_of_colors:_N%E2%80%93Z]
+ - (A - F)[https://en.wikipedia.org/wiki/List_of_colors:_A%E2%80%93F]
+ - (G - M)[https://en.wikipedia.org/wiki/List_of_colors:_G%E2%80%93M]
+ - (N - Z)[https://en.wikipedia.org/wiki/List_of_colors:_N%E2%80%93Z]
