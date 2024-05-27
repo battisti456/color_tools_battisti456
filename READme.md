@@ -6,7 +6,7 @@ This is a library to contain a few small tools for working with the item types u
 
 Currently it only contains some color typing and a method for finding the closest color name to the given color.
 
-## Instalation
+## Installation
 
 Install using:
 
