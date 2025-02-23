@@ -71,4 +71,4 @@ def hex_to_integer(color:HexColorAlpha) -> IntegerColorAlpha:
     ...
 
 def hex_to_integer(color:HexColor|HexColorAlpha) -> IntegerColor|IntegerColorAlpha:
-    return int('0x'+color[1:])#type:ignore
+    return int(color[1:],16)#type:ignore
