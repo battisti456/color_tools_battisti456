@@ -31,7 +31,11 @@ def tuple_to_hex(color:TupleRGBA) -> HexColorAlpha:
 def tuple_to_hex(color:TupleRGB|TupleRGBA) -> HexColor|HexColorAlpha:
     to_return = "#"
     for val in color:
-        to_return += hex(val)[2:]
+        hex_val = hex(val)[2:]
+        if len(hex_val) == 1:
+            hex_val = '0' + hex_val
+        to_return += hex_val
+
     return to_return#type:ignore
 
 @overload
